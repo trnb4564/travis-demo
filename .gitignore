@@ -1,3 +1,7 @@
+# build, ide files
+.gradle/**
+.idea/**
+
 # Compiled class file
 *.class
 
