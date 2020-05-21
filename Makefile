@@ -3,3 +3,6 @@ run-local:
 
 test:
 	gradle test --info
+
+build:
+	gradle build
