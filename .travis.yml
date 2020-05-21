@@ -24,4 +24,4 @@ jobs:
 
         - stage: build
           name: 'Build'
-          script: gradle build -s
+          script: make build-project
