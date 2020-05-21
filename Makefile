@@ -1,5 +1,5 @@
 run-local:
-	./gradlew bootRun
+	gradle bootRun
 
 test:
-	./gradlew test --info
+	gradle test --info
