@@ -1,6 +1,7 @@
 # build, ide files
 .gradle/**
 .idea/**
+target/**
 
 # Compiled class file
 *.class
