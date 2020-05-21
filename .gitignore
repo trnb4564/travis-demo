@@ -3,6 +3,7 @@
 .idea/**
 target/**
 build/**
+.vscode/**
 
 # Compiled class file
 *.class
@@ -30,4 +31,5 @@ hs_err_pid*
 
 # project, settings files
 .project
+.classpath
 .settings/**
