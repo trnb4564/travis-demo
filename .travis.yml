@@ -20,8 +20,8 @@ jobs:
     include:
         - stage: test
           name: 'Tests'
-          script: make test
+          script: ./gradlew test --info
 
         - stage: build
           name: 'Build'
-          script: make build-project
+          script: ./gradlew build
