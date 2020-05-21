@@ -2,7 +2,7 @@ run-local:
 	./gradlew bootRun
 
 test:
-	gradle test --info
+	mvn test
 
 build-project:
-	gradle build
+	mvn install
