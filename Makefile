@@ -2,7 +2,7 @@ run-local:
 	./gradlew bootRun
 
 test:
-	gradle wrapper && ./gradlew test --info
+	gradle test --info
 
 build-project:
-	./gradlew build
+	gradle build
