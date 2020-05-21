@@ -1,8 +1,8 @@
 run-local:
-	gradle bootRun
+	./gradlew bootRun
 
 test:
-	gradle test --info
+	./gradlew test --info
 
-build:
-	gradle build
+build-project:
+	./gradlew build
