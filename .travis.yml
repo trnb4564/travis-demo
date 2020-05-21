@@ -1,0 +1,27 @@
+language: java
+install: true
+
+os: linux
+dist: trusty
+jdk: oraclejdk8
+
+branches:
+  only:
+    - master
+
+stages:
+    - name: test
+    - name: build
+      if: (branch = master OR branch = develop) AND type != pull_request
+    # - name: version
+    #   if: (branch = master OR branch = develop) AND type != pull_request
+
+jobs:
+    include:
+        - stage: test
+          name: 'Tests'
+          script: make test
+
+        - stage: build
+          name: 'Build'
+          script: gradle build -s
